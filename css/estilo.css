@@ -1,0 +1,48 @@
+.box {
+    width: 960px;
+    margin: 0 auto;
+    border: 1px dashed #000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+
+figcaption {
+    font-size: 8pt;
+    
+}
+
+.imagem{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+p, ul{
+    text-align: justify;
+    font-family: Verdana;
+}
+
+.texto{
+    width: 600px;
+    border-left: 1px solid #000;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+.imagem, .texto{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(#000, #ccc);
+    border-radius: 55px;
+    color: #fff;
+}
